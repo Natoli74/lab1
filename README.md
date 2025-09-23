@@ -2,7 +2,7 @@
 
 Submitted by: **Natoli Tesgera**
 
-Time spent: **4** hours
+Time spent: **3** hours
 
 MSUM Dragons is a single-page React + Vite application that showcases STEM and Computer Science student clubs at Minnesota State University Moorhead. The app is a lightweight directory designed to help students discover clubs, search and filter by focus area, view club details, and contact organizers.
 
@@ -89,4 +89,3 @@ This project includes a LICENSE file in the repository. See `LICENSE` for licens
 
 ---
 
-If you'd like, I can adapt this README for a specific submission format (CodePath, Canvas, GitHub Pages) or add contributors and change log sections.
