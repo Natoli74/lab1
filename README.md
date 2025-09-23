@@ -35,7 +35,7 @@ Here's a walkthrough of implemented features:
 
 <img src='src/assets/web102_proj1.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough'/>
 
-GIF created with [Ezgit](https://ezgif.com/) 
+GIF created with [Ezgif](https://ezgif.com/) 
 
 ---
 
