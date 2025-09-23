@@ -74,12 +74,6 @@ GIF created with [Ezgif](https://ezgif.com/)
 - Club data is currently defined in `App.jsx`. For a larger dataset, move this to a JSON file or an API endpoint and lazy-load/paginate.
 - Cards are responsive and use a vertical flex layout to avoid content overlap; the details and action buttons are anchored to the bottom of each card for consistent alignment.
 
-### Possible next steps
-
-- Persist search and filter state in the URL so results are shareable.
-- Add unit tests with Jest + React Testing Library.
-- Replace inline emoji icons with SVGs or uploaded images for better branding.
-- Add animations or micro-interactions for hover/focus states.
 
 ---
 
