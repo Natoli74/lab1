@@ -1,4 +1,4 @@
-# WEB102 Project 1 - MSUM Dragons — STEM & Computer Science Clubs
+# WEB102 Project 1 Community Board - MSUM Dragons — STEM & Computer Science Clubs
 
 Submitted by: **Natoli Tesgera**
 
