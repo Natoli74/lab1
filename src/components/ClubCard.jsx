@@ -1,4 +1,8 @@
 const ClubCard = ({ club, onLearnMore }) => {
+  // always use the student organizations page for Contact
+  const contactHref =
+    "https://www.mnstate.edu/student-life/student-activities/organizations";
+
   return (
     <div className="club-card" tabIndex={0} aria-label={`${club.name} card`}>
       <div className={`club-card-accent ${club.colorClass}`} />
@@ -32,9 +36,9 @@ const ClubCard = ({ club, onLearnMore }) => {
           </button>
           <a
             className="btn btn-secondary"
-            href={`mailto:?subject=Inquiry about ${encodeURIComponent(
-              club.name
-            )}`}
+            href={contactHref}
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label={`Contact ${club.name}`}
           >
             <span className="btn-icon">📧</span>

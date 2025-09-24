@@ -11,16 +11,6 @@ export default function MSUMSTEMClubs() {
 
   const clubs = [
     {
-      name: "Computer Science Club",
-      description:
-        "Join fellow CS students for coding challenges, tech talks, and networking opportunities. Perfect for building programming skills and industry connections.",
-      focus: "Programming & Software",
-      meeting: "Wednesdays 7PM",
-      icon: "💻",
-      iconBgClass: "bg-blue-100",
-      colorClass: "bg-gradient-cs",
-    },
-    {
       name: "STEM Learning Community",
       description:
         "Connect with faculty, participate in study groups, and explore research opportunities across all STEM disciplines at MSUM.",
@@ -29,6 +19,16 @@ export default function MSUMSTEMClubs() {
       icon: "🔬",
       iconBgClass: "bg-green-100",
       colorClass: "bg-gradient-stem",
+    },
+    {
+      name: "Computer Science Club",
+      description:
+        "Join fellow CS students for coding challenges, tech talks, and networking opportunities. Perfect for building programming skills and industry connections.",
+      focus: "Programming & Software",
+      meeting: "Wednesdays 7PM",
+      icon: "💻",
+      iconBgClass: "bg-blue-100",
+      colorClass: "bg-gradient-cs",
     },
     {
       name: "Cybersecurity Club",
@@ -242,9 +242,8 @@ export default function MSUMSTEMClubs() {
             <div className="modal-actions">
               <a
                 className="btn-primary"
-                href={`mailto:?subject=Inquiry about ${encodeURIComponent(
-                  selectedClub.name
-                )}`}
+                target="_blank"
+                href="https://www.mnstate.edu/student-life/student-activities/organizations/"
               >
                 Contact
               </a>
